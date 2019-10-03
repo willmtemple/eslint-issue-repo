@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "packages\\a"
+		},
+		{
+			"path": "packages\\b"
+		}
+	],
+	"settings": {
+		"eslint.options": {
+			"debug" : true,
+		},
+		"eslint.validate": [
+			"javascript",
+			"javascriptreact",
+			"typescript",
+			"json"
+		],
+		"eslint.workingDirectories": [
+			{"directory": "packages/a", "changeProcessCWD": true }
+		]
+	}
+}
