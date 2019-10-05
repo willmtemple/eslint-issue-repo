@@ -1,3 +1,7 @@
 import { foo } from 'b';
 
-console.log(foo());
+function lintError() : String {
+  return "A string:" + foo();
+}
+
+console.log(lintError());
